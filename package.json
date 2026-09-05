@@ -1,0 +1,16 @@
+{
+  "name": "agentr-illustrations",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Draws AgentR blog illustrations in the house style. Standalone: nothing here needs the website repo.",
+  "scripts": {
+    "draw": "node draw.mjs",
+    "check": "node check.mjs"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "roughjs": "^4.6.6",
+    "sharp": "^0.35.4"
+  }
+}
